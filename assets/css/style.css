@@ -584,7 +584,6 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
-  overflow: hidden; 
 }
 
 .testimonials-item-title { margin-bottom: 7px; }
@@ -1428,12 +1427,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 20px;
   }
 
-  .testimonials-avatar-box img {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: auto;
-}
+  .testimonials-avatar-box img { width: 80px; }
 
   .testimonials-item-title {
     margin-bottom: 10px;
